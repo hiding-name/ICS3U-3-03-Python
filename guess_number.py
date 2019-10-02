@@ -12,6 +12,10 @@ def main():
 
     # variables
     number = random.randint(1, 101)
+    
+    # Welcome statement
+    print("Welcome, this is the NUMBER GUESSER.")
+    input("Press Enter to continue.")
 
     # input
     guess = float(input("Guess the number: "))
